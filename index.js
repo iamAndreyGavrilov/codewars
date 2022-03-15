@@ -1,13 +1,15 @@
-function evenNumbers(array, number) {
-  let evenArr = [];
-  array.forEach((el) => {
-    el % 2 === 0 ? evenArr.push(el) : false;
-  });
+//==========
 
-  console.log(evenArr);
-}
+// function evenNumbers(array, number) {
+//   let evenArr = [];
+//   array.forEach((el) => {
+//     el % 2 === 0 ? evenArr.push(el) : false;
+//   });
 
-console.log(evenNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9], 3)); //[4, 6, 8]
+//   return evenArr.slice(-number);
+// }
+
+// console.log(evenNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9], 3)); //[4, 6, 8]
 
 //==========
 
