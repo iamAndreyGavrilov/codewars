@@ -1,4 +1,4 @@
-//==========
+// ==========
 
 // function evenNumbers(array, number) {
 //   let evenArr = [];
@@ -11,7 +11,7 @@
 
 // console.log(evenNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9], 3)); //[4, 6, 8]
 
-//==========
+// ==========
 
 // function smallEnough(a, limit) {
 //   let res = true;
