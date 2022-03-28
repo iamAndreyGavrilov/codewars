@@ -1,5 +1,20 @@
 // ==========
 
+// function sortByLength(array) {
+//   return array.sort((a, b) => a.length - b.length);
+// }
+
+// console.log(sortByLength(["Telescopes", "Glasses", "Eyes", "Monocles"]));
+// ==========
+
+// function friend(friends) {
+//   let res = [];
+//   return (res = friends.filter((f) => f.length === 4));
+// }
+
+// console.log(friend(["Ryan", "Kieran", "Mark"]));
+// ==========
+
 // function evenNumbers(array, number) {
 //   let evenArr = [];
 //   array.forEach((el) => {
