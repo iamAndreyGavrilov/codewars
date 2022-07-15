@@ -1,5 +1,28 @@
 // ==========
 
+// function findNeedle(haystack) {
+//   // your code here
+//   const a = haystack.findIndex((i) => i === "needle");
+//   return `found the needle at position ${a}`;
+// }
+
+// console.log(
+//   findNeedle(["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"])
+// );
+// ==========
+
+// function sumTwoSmallestNumbers(numbers) {
+//   //Code here
+//   const sorted = numbers.sort((a, b) => a - b);
+//   const sum = sorted[0] + sorted[1];
+//   return sum;
+// }
+// sumTwoSmallestNumbers([19, 5, 42, 2, 77]);
+
+// // For example, when an array is passed like [19, 5, 42, 2, 77], the output should be 5+2 = 7.
+
+// ==========
+
 // function sortByLength(array) {
 //   return array.sort((a, b) => a.length - b.length);
 // }
