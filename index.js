@@ -1,4 +1,46 @@
 // ==========
+// function likes(names) {
+//   if (names.length === 0) {
+//     return `no one likes this`;
+//   } else if (names.length === 1) {
+//     return `${names[0]} likes this`;
+//   } else if (names.length === 2) {
+//     return `${names[0]} and ${names[1]} likes this`;
+//   } else if (names.length === 3) {
+//     return `${names[0]}, ${names[1]} and ${names[2]} likes this`;
+//   } else if (names.length >= 4) {
+//     return `${names[0]}, ${names[1]} and ${names.length - 2} others like this`;
+//   }
+// }
+
+// function likes(names) {
+//   if (names.length == 0) {
+//     return "no one likes this";
+//   } else if (names.length == 1) {
+//     return names[0] + " likes this";
+//   } else if (names.length == 2) {
+//     return names[0] + " and " + names[1] + " like this";
+//   } else if (names.length == 3) {
+//     return names[0] + ", " + names[1] + " and " + names[2] + " like this";
+//   } else {
+//     return (
+//       names[0] +
+//       ", " +
+//       names[1] +
+//       " and " +
+//       (names.length - 2) +
+//       " others like this"
+//     );
+//   }
+// }
+// console.log(likes([]));
+// console.log(likes(["Peter"]));
+// console.log(likes(["Jacob", "Alex"]));
+// console.log(likes(["Max", "John", "Mark"]));
+// console.log(likes(["Alex", "Jacob", "Mark", "Max"]));
+
+// ==========
+
 
 // // alphabetPosition("The sunset sets at twelve o' clock.")
 // // Should return "20 8 5 19 21 14 19 5 20 19 5 20 19 1 20 20 23 5 12 22 5 15 3 12 15 3 11" ( как строка )
