@@ -1,4 +1,43 @@
 // ==========
+
+
+// ==========
+// function fakeBin(x) {
+//   let a = x.split("");
+//   let b = [];
+//   for (let i = 0; i <= a.length; i++) {
+//     const element = a[i];
+//     if (element < 5) {
+//       b.push(0);
+//     } else if (element >= 5) {
+//       b.push(1);
+//     }
+//   }
+//   return b.join("");
+// }
+// console.log(fakeBin("45385593107843568"));
+// ==========
+
+// function basicOp(operation, value1, value2) {
+//   if (operation === "+") return value1 + value2;
+//   if (operation === "-") return value1 - value2;
+//   if (operation === "*") return value1 * value2;
+//   if (operation === "/") return value1 / value2;
+// }
+// console.log(basicOp("+", 4, 7));
+
+// ==========
+// function lovefunc(flower1, flower2) {
+//   if (flower1 % 2 === 0 && flower2 % 2 !== 0) {
+//     return true;
+//   } else if (flower1 % 2 !== 0 && flower2 % 2 === 0) {
+//     return true;
+//   } else return false;
+// }
+
+// console.log(lovefunc(1, 4));
+
+// ==========
 // function likes(names) {
 //   if (names.length === 0) {
 //     return `no one likes this`;
@@ -40,7 +79,6 @@
 // console.log(likes(["Alex", "Jacob", "Mark", "Max"]));
 
 // ==========
-
 
 // // alphabetPosition("The sunset sets at twelve o' clock.")
 // // Should return "20 8 5 19 21 14 19 5 20 19 5 20 19 1 20 20 23 5 12 22 5 15 3 12 15 3 11" ( как строка )
