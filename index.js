@@ -1,4 +1,23 @@
 // ==========
+// function isIsogram(str) {
+//   let strLowerCase = str.toLowerCase();
+//   let strSplit = strLowerCase.split("");
+//   let uniqStr = new Set(strSplit);
+
+//   if (uniqStr.size === strSplit.length) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+// console.log(isIsogram("Dermatoglyphics"));
+
+//   "Dermatoglyphics" --> true
+//   "aba" --> false
+//   "moOse" --> false (ignore letter case)
+
+// ==========
 // function countPositivesSumNegatives(input) {
 //   if (input === null || input.length < 1) {
 //     return [];
