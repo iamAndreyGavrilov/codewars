@@ -1,5 +1,58 @@
 // ==========
 
+// ==========
+
+// function towerBuilder(nFloors) {
+//   let space,
+//     star,
+//     tower = [];
+
+//   for (let i = 1; i <= nFloors; i++) {
+//     space = ' '.repeat(nFloors - i);
+//     star = '*'.repeat(2 * i - 1);
+//     tower.push(`${space}${star}${space}`);
+//   }
+//   return tower;
+// }
+
+// console.log(towerBuilder(3));
+// ==========
+// const a = [
+//   true,
+//   true,
+//   true,
+//   false,
+//   true,
+//   true,
+//   true,
+//   true,
+//   true,
+//   false,
+//   true,
+//   false,
+//   true,
+//   false,
+//   false,
+//   true,
+//   true,
+//   true,
+//   true,
+//   true,
+//   false,
+//   false,
+//   true,
+//   true,
+// ];
+
+// function countSheeps(arrayOfSheep) {
+//   const b = arrayOfSheep.filter((arr) => arr === true);
+//   return b.length;
+// }
+
+// console.log(countSheeps(a));
+// //The correct answer would be 17.
+// ==========
+
 // var uniqueInOrder = function (iterable) {
 //   let arr = [];
 //   for (let i = 0; i < iterable.length; i++) {
