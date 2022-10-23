@@ -1,5 +1,135 @@
 // ==========
 
+
+
+
+// ==========
+
+// // function findOutlier(int) {
+// //   let even = int.filter((a) => a % 2 == 0);
+// //   let odd = int.filter((a) => a % 2 !== 0);
+// //   return even.length === 1 ? even[0] : odd[0];
+// // }
+// // Find The Parity Outlier
+// function findOutlier(integers) {
+//   let countEven = [];
+//   let countOdd = [];
+//   let res = [];
+
+//   if (integers.length === 1) {
+//     return res.push(integers);
+//   }
+
+//   for (const integer of integers) {
+//     if (integer % 2 === 0) {
+//       countEven.push(integer);
+//     } else {
+//       countOdd.push(integer);
+//     }
+//   }
+
+//   if (countEven.length === 1) {
+//     return Number(countEven);
+//   }
+//   if (countOdd.length === 1) {
+//     return Number(countOdd);
+//   }
+// }
+// console.log(findOutlier([2, 4, 0, 100, 4, 11, 2602, 36]));
+// console.log(findOutlier([160, 3, 1719, 19, 11, 13, -21]));
+// console.log(findOutlier([1]));
+// // [2, 4, 0, 100, 4, 11, 2602, 36]
+// // Should return: 11 (the only odd number)
+
+// // [160, 3, 1719, 19, 11, 13, -21]
+// // Should return: 160 (the only even number)
+
+// ==========
+
+// function greet(name) {
+//   if (name === "Johnny") {
+//     return "Hello, my love!";
+//   }
+//   return "Hello, " + name + "!";
+// }
+
+// ==========
+// const greet = () => "hello world!";
+
+// ==========
+// // Get the Middle Character
+// function getMiddle(s) {
+//   let resIndex = s.length / 2 - 1;
+//   let resIndexMid = s.length / 2;
+//   let resIndexNext = s.length / 2 + 1;
+
+//   let res = "";
+
+//   if (s.length === 1) {
+//     res = s;
+//   } else if (s.length % 2 === 0) {
+//     res = s.slice(resIndex, resIndexNext);
+//   } else if (s.length % 2 !== 0) {
+//     res = s.slice(resIndexMid, resIndexNext);
+//   }
+
+//   return res;
+// }
+
+// getMiddle("test"); // return "es"
+
+// getMiddle("testing"); // return "t"
+
+// ==========
+// // Vowel Count
+// function getCount(str) {
+//   let count = 0;
+
+//   let vowels = ["a", "e", "i", "o", "u"];
+
+//   let splitStr = str.split("");
+
+//   for (const vowel of vowels) {
+//     splitStr.forEach((element) => {
+//       if (element === vowel) {
+//         count++;
+//       }
+//     });
+//   }
+
+//   return count;
+// }
+
+// getCount("abracadabra"); //5
+
+// ==========
+// // Roman Numerals Decoder
+
+// function solution(roman) {
+//   let table = {
+//     I: 1,
+//     V: 5,
+//     X: 10,
+//     L: 50,
+//     C: 100,
+//     D: 500,
+//     M: 1000,
+//   };
+
+//   let result = 0;
+
+//   for (let i = 0; i < roman.length; i++) {
+//     if (table[roman[i]] < table[roman[i + 1]]) {
+//       result -= table[roman[i]];
+//     } else {
+//       result += table[roman[i]];
+//     }
+//   }
+
+//   return result;
+// }
+
+// solution("MMVIII");
 // ==========
 
 // function towerBuilder(nFloors) {
